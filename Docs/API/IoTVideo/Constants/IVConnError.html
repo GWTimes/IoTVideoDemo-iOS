@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>IVConnError Constants Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">IoTVideo </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">tencentcs</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">IVConnError Constants Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>IVError.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+
+                    
+                    <h3 class="subsubtitle method-title">IVConnError</h3>
+                    
+					
+					<div class="section section-overview">
+                        <p>iOS连接错误 [21020-21029]</p>
+					</div>
+					
+					
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_ENUM(IVErrCode, IVConnError ) {<br>
+                            
+                            &nbsp;&nbsp; <a href="">IVConnError_ExceedsMaxNumber</a> = 21020,<br>
+                            
+                            &nbsp;&nbsp; <a href="">IVConnError_Duplicate</a> = 21021,<br>
+                            
+                            &nbsp;&nbsp; <a href="">IVConnError_ConnectFailed</a> = 21022,<br>
+                            
+                            &nbsp;&nbsp; <a href="">IVConnError_Disconnected</a> = 21023,<br>
+                            
+                            &nbsp;&nbsp; <a href="">IVConnError_ExceedsMaxLength</a> = 21024,<br>
+                            
+                            &nbsp;&nbsp; <a href="">IVConnError_NotAvailableNow</a> = 21025,<br>
+                            
+                            &nbsp;&nbsp; <a href="">IVConnError_SendDataFailed</a> = 21026,<br>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="IVConnError_ExceedsMaxNumber"></a><code>IVConnError_ExceedsMaxNumber</code></dt>
+<dd>
+
+
+<p>APP端通道连接数已达上限, 见<code>MAX_CONNECTION_NUM</code></p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">IVError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="IVConnError_Duplicate"></a><code>IVConnError_Duplicate</code></dt>
+<dd>
+
+
+<p>重复的连接通道, 已存在相同<code>deviceId + sourceId</code></p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">IVError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="IVConnError_ConnectFailed"></a><code>IVConnError_ConnectFailed</code></dt>
+<dd>
+
+
+<p>建立连接失败</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">IVError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="IVConnError_Disconnected"></a><code>IVConnError_Disconnected</code></dt>
+<dd>
+
+
+<p>连接已断开/连接失败</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">IVError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="IVConnError_ExceedsMaxLength"></a><code>IVConnError_ExceedsMaxLength</code></dt>
+<dd>
+
+
+<p>用户自定义数据长度超出上限 @c <code>MAX_PKG_BYTES</code></p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">IVError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="IVConnError_NotAvailableNow"></a><code>IVConnError_NotAvailableNow</code></dt>
+<dd>
+
+
+<p>当前连接暂不可用</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">IVError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="IVConnError_SendDataFailed"></a><code>IVConnError_SendDataFailed</code></dt>
+<dd>
+
+
+<p>发送用户数据失败</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">IVError.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
+                    
+
+                    
+                    
+
+                    
+
+                    
+                    <div class="method-subsection declared-in-section">
+                        <h4 class="method-subtitle">Declared In</h4>
+                        <p><code class="declared-in-ref">IVError.h</code></p>
+                    </div>
+                    
+                    
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2021 tencentcs. All rights reserved. Updated: 2021-07-22</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

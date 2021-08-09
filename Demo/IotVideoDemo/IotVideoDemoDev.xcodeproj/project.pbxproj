@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF2BD602454220D00C00526 /* IVMonitorPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF7D032419E0BD0006ED6C /* IVMonitorPlayer.storyboard */; };
+		99314C2A2474C691001CA05E /* IVAPAddDeviceSendInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99314C282474C691001CA05E /* IVAPAddDeviceSendInfoVC.swift */; };
+		9935D18A242D9403001F9E78 /* Logo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9935D189242D9403001F9E78 /* Logo.xcassets */; };
+		996B0CB224722901005115C1 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996B0CB124722901005115C1 /* ExternalAccessory.framework */; };
+		999121832546BD8B00CB3445 /* IVAnonymousLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999121822546BD8B00CB3445 /* IVAnonymousLoginViewController.swift */; };
+		99B30A4D2431C0EF005C5028 /* IVDeviceShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B30A492431C0E8005C5028 /* IVDeviceShareViewController.swift */; };
+		99BF363B249759FC00714917 /* IoTAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF363A249759FC00714917 /* IoTAppDelegate.swift */; };
+		99DE49AB246E7E6F00ED826E /* IVLANAddDevice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DE49A9246E7E6F00ED826E /* IVLANAddDevice.storyboard */; };
+		99DE49AC246E7E7500ED826E /* IVQRCodeAddDevice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DE49A5246E7DA200ED826E /* IVQRCodeAddDevice.storyboard */; };
+		99DE49AF246E7FAE00ED826E /* IVAPAddDevice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DE49AD246E7FAE00ED826E /* IVAPAddDevice.storyboard */; };
+		99DE49B2246E816900ED826E /* IVAPAddDeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE49B0246E816800ED826E /* IVAPAddDeviceVC.swift */; };
+		D54E9FE4241A027B00D95AFC /* IVMsgOtaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E9FE0241A027B00D95AFC /* IVMsgOtaVC.swift */; };
+		D54E9FEA241A103100D95AFC /* IVDeviceMgr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54E9FE9241A103100D95AFC /* IVDeviceMgr.storyboard */; };
+		D55E58BB241F18CA00A0A773 /* IVDemoNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55E58BA241F18CA00A0A773 /* IVDemoNetwork.swift */; };
+		D5922C8B2421C8EE00945182 /* IVCloudStorage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5922C8A2421C8EE00945182 /* IVCloudStorage.storyboard */; };
+		D5E19F182422269F001026D3 /* IJKMediaPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E19F162422269F001026D3 /* IJKMediaPlayer.storyboard */; };
+		D5E19F1C2422299D001026D3 /* IVCloudStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E19F1B2422299D001026D3 /* IVCloudStorageViewController.swift */; };
+		D5F940AD241A315A00AC0BAE /* IVMsgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7D142419E0BD0006ED6C /* IVMsgVC.swift */; };
+		D5F940B1241A329C00AC0BAE /* IVMsg.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F940AF241A329C00AC0BAE /* IVMsg.storyboard */; };
+		D5F940B7241A337600AC0BAE /* IVMsgOta.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F940B5241A337600AC0BAE /* IVMsgOta.storyboard */; };
+		EA04A59325C2D53E00C4F8BE /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA04A59225C2D53E00C4F8BE /* IJKMediaFrameworkWithSSL.framework */; };
+		EA266EA824F5114500DD271D /* IVTimelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA266E9124F510F200DD271D /* IVTimelineViewModel.swift */; };
+		EA266EAC24F5120F00DD271D /* IVTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA266EA924F5120F00DD271D /* IVTimelineView.swift */; };
+		EA266EAF24F5120F00DD271D /* IVDatelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA266EAA24F5120F00DD271D /* IVDatelineView.swift */; };
+		EA266EB224F5120F00DD271D /* IVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA266EAB24F5120F00DD271D /* IVCalendarView.swift */; };
+		EA29913A260AD16C00C99232 /* IVDownloadTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA299139260AD16C00C99232 /* IVDownloadTable.storyboard */; };
+		EA47908E24A050EA009C0D20 /* IVWifiTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47907724A050E9009C0D20 /* IVWifiTool.swift */; };
+		EA47909124A050EA009C0D20 /* IVPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47907824A050E9009C0D20 /* IVPopupView.swift */; };
+		EA47909424A050EA009C0D20 /* IVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47907924A050E9009C0D20 /* IVView.swift */; };
+		EA47909A24A050EA009C0D20 /* IVColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47907B24A050E9009C0D20 /* IVColor.swift */; };
+		EA47909D24A050EA009C0D20 /* IVKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47907C24A050E9009C0D20 /* IVKeychain.swift */; };
+		EA4790A024A050EA009C0D20 /* IVJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47907D24A050E9009C0D20 /* IVJson.swift */; };
+		EA4790A324A050EA009C0D20 /* IVHudAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47907E24A050E9009C0D20 /* IVHudAlert.swift */; };
+		EA4790A624A050EA009C0D20 /* IVImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47907F24A050E9009C0D20 /* IVImage.swift */; };
+		EA4790A924A050EA009C0D20 /* IVTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908024A050E9009C0D20 /* IVTimer.swift */; };
+		EA4790AC24A050EA009C0D20 /* IVDelayWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908124A050E9009C0D20 /* IVDelayWork.swift */; };
+		EA4790AF24A050EA009C0D20 /* IVLoginConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908224A050E9009C0D20 /* IVLoginConst.swift */; };
+		EA4790B224A050EA009C0D20 /* IVApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908324A050E9009C0D20 /* IVApplication.swift */; };
+		EA4790B524A050EA009C0D20 /* IVDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908424A050E9009C0D20 /* IVDevice.swift */; };
+		EA4790B824A050EA009C0D20 /* IVNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908524A050E9009C0D20 /* IVNotification.swift */; };
+		EA4790BB24A050EA009C0D20 /* IVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908624A050E9009C0D20 /* IVFoundation.swift */; };
+		EA4790C124A050EA009C0D20 /* IVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908824A050E9009C0D20 /* IVButton.swift */; };
+		EA4790C424A050EA009C0D20 /* IVLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908924A050E9009C0D20 /* IVLogger.swift */; };
+		EA4790C724A050EA009C0D20 /* IVApiFormatTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908A24A050E9009C0D20 /* IVApiFormatTest.swift */; };
+		EA4790CA24A050EA009C0D20 /* IVGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908B24A050E9009C0D20 /* IVGradientView.swift */; };
+		EA4790CD24A050EA009C0D20 /* IVCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908C24A050E9009C0D20 /* IVCrypto.swift */; };
+		EA4790D024A050EA009C0D20 /* IVControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47908D24A050E9009C0D20 /* IVControl.swift */; };
+		EA4790DD24A05B7A009C0D20 /* IVString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4790DA24A05B79009C0D20 /* IVString.swift */; };
+		EA4A320B247BAC0E00309C39 /* IVTransmissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4A3207247BAC0A00309C39 /* IVTransmissionViewController.swift */; };
+		EA4A320E247BAC7F00309C39 /* IVTransmission.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4A320C247BAC7F00309C39 /* IVTransmission.storyboard */; };
+		EA4A3218247BEF1000309C39 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA4A3215247BEF1000309C39 /* timg.jpeg */; };
+		EA4A321A247BEF1000309C39 /* timg-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA4A3216247BEF1000309C39 /* timg-2.jpeg */; };
+		EAA0D28D2604C8B700FB46AD /* IVDownloadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA0D28C2604C8B700FB46AD /* IVDownloadTableViewController.swift */; };
+		EAA4DE3824A1F701008CDEB8 /* IVToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4DE3724A1F701008CDEB8 /* IVToast.swift */; };
+		EABBB5C224AE037000650715 /* IVObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABBB5C124AE037000650715 /* IVObservable.swift */; };
+		EADAAA8C2419D25F0001B32D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C7223023839B9600585D33 /* AppDelegate.swift */; };
+		EADAAA972419D25F0001B32D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B86AB923C47D7D0082A7F1 /* UserNotifications.framework */; };
+		EADAAAA12419D25F0001B32D /* Pods_IotVideoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2057A9D56E920A4E39BA18 /* Pods_IotVideoDemo.framework */; };
+		EADAAAA42419D25F0001B32D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C7223923839B9700585D33 /* LaunchScreen.storyboard */; };
+		EADAAAA62419D25F0001B32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C7223723839B9700585D33 /* Assets.xcassets */; };
+		EAE34CCE241B1FD600865A8A /* IVAddDevice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE34CCC241B1FCD00865A8A /* IVAddDevice.storyboard */; };
+		EAE34CD0241B2A2000865A8A /* IVAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE34CCF241B2A2000865A8A /* IVAccount.storyboard */; };
+		EAEB9E7A25748B6D00CFCADB /* IVCloudStorageBuyPkgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB9E7925748B6D00CFCADB /* IVCloudStorageBuyPkgViewController.swift */; };
+		EAFF7CB22419E0850006ED6C /* IVTencentNetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7C8E2419E0840006ED6C /* IVTencentNetworkAPI.swift */; };
+		EAFF7CBC2419E0850006ED6C /* IVTencentNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7C932419E0840006ED6C /* IVTencentNetwork.swift */; };
+		EAFF7CD02419E0850006ED6C /* IVDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7C9E2419E0840006ED6C /* IVDeviceModel.swift */; };
+		EAFF7CD22419E0850006ED6C /* IVQRCodeAddDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7C9F2419E0840006ED6C /* IVQRCodeAddDevice.swift */; };
+		EAFF7CD82419E0850006ED6C /* IVLANDeviceTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7CA32419E0840006ED6C /* IVLANDeviceTableVC.swift */; };
+		EAFF7CE62419E0850006ED6C /* IVLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7CAC2419E0840006ED6C /* IVLiveViewController.swift */; };
+		EAFF7CE82419E0850006ED6C /* IVPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7CAD2419E0840006ED6C /* IVPlaybackViewController.swift */; };
+		EAFF7CEA2419E0850006ED6C /* IJKMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7CAE2419E0840006ED6C /* IJKMediaViewController.swift */; };
+		EAFF7CEC2419E0850006ED6C /* IVDevicePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7CAF2419E0840006ED6C /* IVDevicePlayerViewController.swift */; };
+		EAFF7CEE2419E0850006ED6C /* IVMonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7CB02419E0840006ED6C /* IVMonitorViewController.swift */; };
+		EAFF7D252419E0BD0006ED6C /* IVLivePlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF7D022419E0BD0006ED6C /* IVLivePlayer.storyboard */; };
+		EAFF7D2B2419E0BD0006ED6C /* IVPlaybackPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF7D052419E0BD0006ED6C /* IVPlaybackPlayer.storyboard */; };
+		EAFF7D6B2419E70E0006ED6C /* IVLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7D632419E70D0006ED6C /* IVLoginViewController.swift */; };
+		EAFF7D6D2419E70E0006ED6C /* IVDeviceMgrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7D642419E70D0006ED6C /* IVDeviceMgrViewController.swift */; };
+		EAFF7D6F2419E70E0006ED6C /* IVLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF7D652419E70D0006ED6C /* IVLogin.storyboard */; };
+		EAFF7D712419E70E0006ED6C /* IVAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7D662419E70D0006ED6C /* IVAccountViewController.swift */; };
+		EAFF7D732419E70E0006ED6C /* IVDeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7D672419E70E0006ED6C /* IVDeviceListViewController.swift */; };
+		EAFF7D752419E70E0006ED6C /* IVAILab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF7D682419E70E0006ED6C /* IVAILab.storyboard */; };
+		EAFF7D772419E70E0006ED6C /* IVMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF7D692419E70E0006ED6C /* IVMain.storyboard */; };
+		EAFF7D8E2419EBB20006ED6C /* IVNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7D802419E8E50006ED6C /* IVNavigationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EADAAAAA2419D25F0001B32D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2160A463823060A34070D379 /* Pods-IotVideoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotVideoTest.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-IotVideoTest/Pods-IotVideoTest.release.xcconfig"; sourceTree = "<group>"; };
+		2F2057A9D56E920A4E39BA18 /* Pods_IotVideoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IotVideoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF004ACBB39C6212BA81A65 /* Pods-IotVideoAccontMgrDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotVideoAccontMgrDemo.release.xcconfig"; path = "Target Support Files/Pods-IotVideoAccontMgrDemo/Pods-IotVideoAccontMgrDemo.release.xcconfig"; sourceTree = "<group>"; };
+		99314C282474C691001CA05E /* IVAPAddDeviceSendInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVAPAddDeviceSendInfoVC.swift; sourceTree = "<group>"; };
+		9935D189242D9403001F9E78 /* Logo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Logo.xcassets; sourceTree = "<group>"; };
+		996B0CB124722901005115C1 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		999121822546BD8B00CB3445 /* IVAnonymousLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVAnonymousLoginViewController.swift; sourceTree = "<group>"; };
+		99B30A492431C0E8005C5028 /* IVDeviceShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVDeviceShareViewController.swift; sourceTree = "<group>"; };
+		99BF363A249759FC00714917 /* IoTAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoTAppDelegate.swift; sourceTree = "<group>"; };
+		99DE49A5246E7DA200ED826E /* IVQRCodeAddDevice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IVQRCodeAddDevice.storyboard; sourceTree = "<group>"; };
+		99DE49A9246E7E6F00ED826E /* IVLANAddDevice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IVLANAddDevice.storyboard; sourceTree = "<group>"; };
+		99DE49AD246E7FAE00ED826E /* IVAPAddDevice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IVAPAddDevice.storyboard; sourceTree = "<group>"; };
+		99DE49B0246E816800ED826E /* IVAPAddDeviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVAPAddDeviceVC.swift; sourceTree = "<group>"; };
+		D547B464238D52D800A4478F /* IotVideoDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IotVideoDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		D54E9FE0241A027B00D95AFC /* IVMsgOtaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVMsgOtaVC.swift; sourceTree = "<group>"; };
+		D54E9FE9241A103100D95AFC /* IVDeviceMgr.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IVDeviceMgr.storyboard; sourceTree = "<group>"; };
+		D55E58BA241F18CA00A0A773 /* IVDemoNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVDemoNetwork.swift; sourceTree = "<group>"; };
+		D589047223A9BA4C0082BD17 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D5922C8A2421C8EE00945182 /* IVCloudStorage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IVCloudStorage.storyboard; sourceTree = "<group>"; };
+		D5B86AB823C47CA80082A7F1 /* IotVideoDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IotVideoDemo.entitlements; sourceTree = "<group>"; };
+		D5B86AB923C47D7D0082A7F1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		D5C7223023839B9600585D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5C7223723839B9700585D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5C7223A23839B9700585D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5E19F162422269F001026D3 /* IJKMediaPlayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IJKMediaPlayer.storyboard; sourceTree = "<group>"; };
+		D5E19F1B2422299D001026D3 /* IVCloudStorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVCloudStorageViewController.swift; sourceTree = "<group>"; };
+		D5F040002394F1F400120D99 /* IVLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVLoginVC.swift; sourceTree = "<group>"; };
+		D5F040032394F21600120D99 /* IVRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVRegisterVC.swift; sourceTree = "<group>"; };
+		D5F040052394F34E00120D99 /* IVAccountAPITestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVAccountAPITestVC.swift; sourceTree = "<group>"; };
+		D5F3C10524188A6A005768F3 /* IVLoginConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVLoginConst.swift; sourceTree = "<group>"; };
+		D5F940AF241A329C00AC0BAE /* IVMsg.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IVMsg.storyboard; sourceTree = "<group>"; };
+		D5F940B5241A337600AC0BAE /* IVMsgOta.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IVMsgOta.storyboard; sourceTree = "<group>"; };
+		D5FB5B362395F45E00C9D737 /* IVRegisterEmailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVRegisterEmailVC.swift; sourceTree = "<group>"; };
+		DACD94A089C77B105D17650E /* Pods-IotVideoAccontMgrDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotVideoAccontMgrDemo.debug.xcconfig"; path = "Target Support Files/Pods-IotVideoAccontMgrDemo/Pods-IotVideoAccontMgrDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DD572BAB8010505F98B3D510 /* Pods-IotVideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotVideoDemo.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-IotVideoDemo/Pods-IotVideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EA04A59225C2D53E00C4F8BE /* IJKMediaFrameworkWithSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFrameworkWithSSL.framework; path = IotVideoDemo/Frameworks/IJKMediaFrameworkWithSSL.framework; sourceTree = "<group>"; };
+		EA266E9124F510F200DD271D /* IVTimelineViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVTimelineViewModel.swift; sourceTree = "<group>"; };
+		EA266EA924F5120F00DD271D /* IVTimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVTimelineView.swift; sourceTree = "<group>"; };
+		EA266EAA24F5120F00DD271D /* IVDatelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVDatelineView.swift; sourceTree = "<group>"; };
+		EA266EAB24F5120F00DD271D /* IVCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVCalendarView.swift; sourceTree = "<group>"; };
+		EA299139260AD16C00C99232 /* IVDownloadTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IVDownloadTable.storyboard; sourceTree = "<group>"; };
+		EA47907724A050E9009C0D20 /* IVWifiTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVWifiTool.swift; sourceTree = "<group>"; };
+		EA47907824A050E9009C0D20 /* IVPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVPopupView.swift; sourceTree = "<group>"; };
+		EA47907924A050E9009C0D20 /* IVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVView.swift; sourceTree = "<group>"; };
+		EA47907B24A050E9009C0D20 /* IVColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVColor.swift; sourceTree = "<group>"; };
+		EA47907C24A050E9009C0D20 /* IVKeychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVKeychain.swift; sourceTree = "<group>"; };
+		EA47907D24A050E9009C0D20 /* IVJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVJson.swift; sourceTree = "<group>"; };
+		EA47907E24A050E9009C0D20 /* IVHudAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVHudAlert.swift; sourceTree = "<group>"; };
+		EA47907F24A050E9009C0D20 /* IVImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVImage.swift; sourceTree = "<group>"; };
+		EA47908024A050E9009C0D20 /* IVTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVTimer.swift; sourceTree = "<group>"; };
+		EA47908124A050E9009C0D20 /* IVDelayWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVDelayWork.swift; sourceTree = "<group>"; };
+		EA47908224A050E9009C0D20 /* IVLoginConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVLoginConst.swift; sourceTree = "<group>"; };
+		EA47908324A050E9009C0D20 /* IVApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVApplication.swift; sourceTree = "<group>"; };
+		EA47908424A050E9009C0D20 /* IVDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVDevice.swift; sourceTree = "<group>"; };
+		EA47908524A050E9009C0D20 /* IVNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVNotification.swift; sourceTree = "<group>"; };
+		EA47908624A050E9009C0D20 /* IVFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVFoundation.swift; sourceTree = "<group>"; };
+		EA47908824A050E9009C0D20 /* IVButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVButton.swift; sourceTree = "<group>"; };
+		EA47908924A050E9009C0D20 /* IVLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVLogger.swift; sourceTree = "<group>"; };
+		EA47908A24A050E9009C0D20 /* IVApiFormatTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVApiFormatTest.swift; sourceTree = "<group>"; };
+		EA47908B24A050E9009C0D20 /* IVGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVGradientView.swift; sourceTree = "<group>"; };
+		EA47908C24A050E9009C0D20 /* IVCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVCrypto.swift; sourceTree = "<group>"; };
+		EA47908D24A050E9009C0D20 /* IVControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVControl.swift; sourceTree = "<group>"; };
+		EA4790DA24A05B79009C0D20 /* IVString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVString.swift; sourceTree = "<group>"; };
+		EA4A3207247BAC0A00309C39 /* IVTransmissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVTransmissionViewController.swift; sourceTree = "<group>"; };
+		EA4A320C247BAC7F00309C39 /* IVTransmission.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IVTransmission.storyboard; sourceTree = "<group>"; };
+		EA4A3215247BEF1000309C39 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		EA4A3216247BEF1000309C39 /* timg-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-2.jpeg"; sourceTree = "<group>"; };
+		EA540EB02419F23200527E21 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA0D28C2604C8B700FB46AD /* IVDownloadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVDownloadTableViewController.swift; sourceTree = "<group>"; };
+		EAA4DE3724A1F701008CDEB8 /* IVToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVToast.swift; sourceTree = "<group>"; };
+		EABBB5C124AE037000650715 /* IVObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVObservable.swift; sourceTree = "<group>"; };
+		EADAAAB52419D25F0001B32D /* IotVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IotVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE34CCC241B1FCD00865A8A /* IVAddDevice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IVAddDevice.storyboard; sourceTree = "<group>"; };
+		EAE34CCF241B2A2000865A8A /* IVAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IVAccount.storyboard; sourceTree = "<group>"; };
+		EAEB9E7925748B6D00CFCADB /* IVCloudStorageBuyPkgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVCloudStorageBuyPkgViewController.swift; sourceTree = "<group>"; };
+		EAFF7C8E2419E0840006ED6C /* IVTencentNetworkAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVTencentNetworkAPI.swift; sourceTree = "<group>"; };
+		EAFF7C932419E0840006ED6C /* IVTencentNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVTencentNetwork.swift; sourceTree = "<group>"; };
+		EAFF7C9E2419E0840006ED6C /* IVDeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVDeviceModel.swift; sourceTree = "<group>"; };
+		EAFF7C9F2419E0840006ED6C /* IVQRCodeAddDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVQRCodeAddDevice.swift; sourceTree = "<group>"; };
+		EAFF7CA32419E0840006ED6C /* IVLANDeviceTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVLANDeviceTableVC.swift; sourceTree = "<group>"; };
+		EAFF7CAC2419E0840006ED6C /* IVLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVLiveViewController.swift; sourceTree = "<group>"; };
+		EAFF7CAD2419E0840006ED6C /* IVPlaybackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVPlaybackViewController.swift; sourceTree = "<group>"; };
+		EAFF7CAE2419E0840006ED6C /* IJKMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJKMediaViewController.swift; sourceTree = "<group>"; };
+		EAFF7CAF2419E0840006ED6C /* IVDevicePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVDevicePlayerViewController.swift; sourceTree = "<group>"; };
+		EAFF7CB02419E0840006ED6C /* IVMonitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVMonitorViewController.swift; sourceTree = "<group>"; };
+		EAFF7D022419E0BD0006ED6C /* IVLivePlayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IVLivePlayer.storyboard; sourceTree = "<group>"; };
+		EAFF7D032419E0BD0006ED6C /* IVMonitorPlayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IVMonitorPlayer.storyboard; sourceTree = "<group>"; };
+		EAFF7D052419E0BD0006ED6C /* IVPlaybackPlayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IVPlaybackPlayer.storyboard; sourceTree = "<group>"; };
+		EAFF7D142419E0BD0006ED6C /* IVMsgVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVMsgVC.swift; sourceTree = "<group>"; };
+		EAFF7D632419E70D0006ED6C /* IVLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVLoginViewController.swift; sourceTree = "<group>"; };
+		EAFF7D642419E70D0006ED6C /* IVDeviceMgrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVDeviceMgrViewController.swift; sourceTree = "<group>"; };
+		EAFF7D652419E70D0006ED6C /* IVLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IVLogin.storyboard; sourceTree = "<group>"; };
+		EAFF7D662419E70D0006ED6C /* IVAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVAccountViewController.swift; sourceTree = "<group>"; };
+		EAFF7D672419E70E0006ED6C /* IVDeviceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVDeviceListViewController.swift; sourceTree = "<group>"; };
+		EAFF7D682419E70E0006ED6C /* IVAILab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IVAILab.storyboard; sourceTree = "<group>"; };
+		EAFF7D692419E70E0006ED6C /* IVMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IVMain.storyboard; sourceTree = "<group>"; };
+		EAFF7D802419E8E50006ED6C /* IVNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVNavigationViewController.swift; sourceTree = "<group>"; };
+		ECF63F18C2CB6B85B6DBE5A7 /* Pods-IotVideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotVideoDemo.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-IotVideoDemo/Pods-IotVideoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F9AFCC166400017A1AEA0039 /* Pods-IotVideoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotVideoTest.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-IotVideoTest/Pods-IotVideoTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADAAA952419D25F0001B32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA04A59325C2D53E00C4F8BE /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
+				EADAAA972419D25F0001B32D /* UserNotifications.framework in Frameworks */,
+				996B0CB224722901005115C1 /* ExternalAccessory.framework in Frameworks */,
+				EADAAAA12419D25F0001B32D /* Pods_IotVideoDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32412E4E8AB189944425730E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA04A59225C2D53E00C4F8BE /* IJKMediaFrameworkWithSSL.framework */,
+				996B0CB124722901005115C1 /* ExternalAccessory.framework */,
+				D5B86AB923C47D7D0082A7F1 /* UserNotifications.framework */,
+				2F2057A9D56E920A4E39BA18 /* Pods_IotVideoDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA07CB14330DE4D2A5BF3121 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DACD94A089C77B105D17650E /* Pods-IotVideoAccontMgrDemo.debug.xcconfig */,
+				8DF004ACBB39C6212BA81A65 /* Pods-IotVideoAccontMgrDemo.release.xcconfig */,
+				DD572BAB8010505F98B3D510 /* Pods-IotVideoDemo.debug.xcconfig */,
+				ECF63F18C2CB6B85B6DBE5A7 /* Pods-IotVideoDemo.release.xcconfig */,
+				F9AFCC166400017A1AEA0039 /* Pods-IotVideoTest.debug.xcconfig */,
+				2160A463823060A34070D379 /* Pods-IotVideoTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D54E9FE5241A0B3E00D95AFC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF7C8E2419E0840006ED6C /* IVTencentNetworkAPI.swift */,
+				EAFF7C932419E0840006ED6C /* IVTencentNetwork.swift */,
+				D55E58BA241F18CA00A0A773 /* IVDemoNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D5C7222423839B9600585D33 = {
+			isa = PBXGroup;
+			children = (
+				D5C7222F23839B9600585D33 /* IotVideoDemo */,
+				32412E4E8AB189944425730E /* Frameworks */,
+				AA07CB14330DE4D2A5BF3121 /* Pods */,
+				D5C7222E23839B9600585D33 /* Products */,
+				EA59BC5A2418CC9E006EBAFA /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		D5C7222E23839B9600585D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADAAAB52419D25F0001B32D /* IotVideoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5C7222F23839B9600585D33 /* IotVideoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D5C7223023839B9600585D33 /* AppDelegate.swift */,
+				EAFF7D802419E8E50006ED6C /* IVNavigationViewController.swift */,
+				EAFF7D012419E0BD0006ED6C /* Targets */,
+				EAFF7CAB2419E0840006ED6C /* Media */,
+				EAFF7C9D2419E0840006ED6C /* Device */,
+				EAFF7D122419E0BD0006ED6C /* IVMsg */,
+				EA47907624A050E9009C0D20 /* Utils */,
+				EAFF7D8F2419EBBF0006ED6C /* Supports */,
+			);
+			path = IotVideoDemo;
+			sourceTree = "<group>";
+		};
+		EA47907624A050E9009C0D20 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EA266EAB24F5120F00DD271D /* IVCalendarView.swift */,
+				EA266EAA24F5120F00DD271D /* IVDatelineView.swift */,
+				EA266EA924F5120F00DD271D /* IVTimelineView.swift */,
+				EA266E9124F510F200DD271D /* IVTimelineViewModel.swift */,
+				EA47907724A050E9009C0D20 /* IVWifiTool.swift */,
+				EA47907824A050E9009C0D20 /* IVPopupView.swift */,
+				EA47907924A050E9009C0D20 /* IVView.swift */,
+				EA47907B24A050E9009C0D20 /* IVColor.swift */,
+				EA47907C24A050E9009C0D20 /* IVKeychain.swift */,
+				EA47907D24A050E9009C0D20 /* IVJson.swift */,
+				EA47907E24A050E9009C0D20 /* IVHudAlert.swift */,
+				EA47907F24A050E9009C0D20 /* IVImage.swift */,
+				EA47908024A050E9009C0D20 /* IVTimer.swift */,
+				EA47908124A050E9009C0D20 /* IVDelayWork.swift */,
+				EA47908224A050E9009C0D20 /* IVLoginConst.swift */,
+				EA47908324A050E9009C0D20 /* IVApplication.swift */,
+				EA47908424A050E9009C0D20 /* IVDevice.swift */,
+				EA47908524A050E9009C0D20 /* IVNotification.swift */,
+				EA4790DA24A05B79009C0D20 /* IVString.swift */,
+				EA47908624A050E9009C0D20 /* IVFoundation.swift */,
+				EA47908824A050E9009C0D20 /* IVButton.swift */,
+				EA47908924A050E9009C0D20 /* IVLogger.swift */,
+				EA47908A24A050E9009C0D20 /* IVApiFormatTest.swift */,
+				EA47908B24A050E9009C0D20 /* IVGradientView.swift */,
+				EA47908C24A050E9009C0D20 /* IVCrypto.swift */,
+				EA47908D24A050E9009C0D20 /* IVControl.swift */,
+				EAA4DE3724A1F701008CDEB8 /* IVToast.swift */,
+				EABBB5C124AE037000650715 /* IVObservable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EA59BC5A2418CC9E006EBAFA /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				D5FB5B362395F45E00C9D737 /* IVRegisterEmailVC.swift */,
+				D5F3C10524188A6A005768F3 /* IVLoginConst.swift */,
+				D5F040032394F21600120D99 /* IVRegisterVC.swift */,
+				D5F040052394F34E00120D99 /* IVAccountAPITestVC.swift */,
+				D5F040002394F1F400120D99 /* IVLoginVC.swift */,
+				D589047223A9BA4C0082BD17 /* Login.storyboard */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		EAFF7C9D2419E0840006ED6C /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				EAE34CCC241B1FCD00865A8A /* IVAddDevice.storyboard */,
+				EAFF7C9E2419E0840006ED6C /* IVDeviceModel.swift */,
+				EAFF7CA32419E0840006ED6C /* IVLANDeviceTableVC.swift */,
+				EAFF7C9F2419E0840006ED6C /* IVQRCodeAddDevice.swift */,
+				99DE49A5246E7DA200ED826E /* IVQRCodeAddDevice.storyboard */,
+				99DE49A9246E7E6F00ED826E /* IVLANAddDevice.storyboard */,
+				99DE49AD246E7FAE00ED826E /* IVAPAddDevice.storyboard */,
+				99DE49B0246E816800ED826E /* IVAPAddDeviceVC.swift */,
+				99314C282474C691001CA05E /* IVAPAddDeviceSendInfoVC.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		EAFF7CAB2419E0840006ED6C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF7D022419E0BD0006ED6C /* IVLivePlayer.storyboard */,
+				EAFF7D032419E0BD0006ED6C /* IVMonitorPlayer.storyboard */,
+				EAFF7D052419E0BD0006ED6C /* IVPlaybackPlayer.storyboard */,
+				EA4A320C247BAC7F00309C39 /* IVTransmission.storyboard */,
+				EA299139260AD16C00C99232 /* IVDownloadTable.storyboard */,
+				D5E19F162422269F001026D3 /* IJKMediaPlayer.storyboard */,
+				EAFF7CAF2419E0840006ED6C /* IVDevicePlayerViewController.swift */,
+				EAFF7CB02419E0840006ED6C /* IVMonitorViewController.swift */,
+				EAFF7CAC2419E0840006ED6C /* IVLiveViewController.swift */,
+				EAFF7CAD2419E0840006ED6C /* IVPlaybackViewController.swift */,
+				EAA0D28C2604C8B700FB46AD /* IVDownloadTableViewController.swift */,
+				EA4A3207247BAC0A00309C39 /* IVTransmissionViewController.swift */,
+				EAFF7CAE2419E0840006ED6C /* IJKMediaViewController.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		EAFF7D012419E0BD0006ED6C /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF7D072419E0BD0006ED6C /* TX */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		EAFF7D072419E0BD0006ED6C /* TX */ = {
+			isa = PBXGroup;
+			children = (
+				99BF363A249759FC00714917 /* IoTAppDelegate.swift */,
+				9935D189242D9403001F9E78 /* Logo.xcassets */,
+				EA540EB02419F23200527E21 /* Info.plist */,
+				EAFF7D682419E70E0006ED6C /* IVAILab.storyboard */,
+				EAFF7D652419E70D0006ED6C /* IVLogin.storyboard */,
+				EAFF7D632419E70D0006ED6C /* IVLoginViewController.swift */,
+				999121822546BD8B00CB3445 /* IVAnonymousLoginViewController.swift */,
+				EAE34CCF241B2A2000865A8A /* IVAccount.storyboard */,
+				D5922C8A2421C8EE00945182 /* IVCloudStorage.storyboard */,
+				D54E9FE9241A103100D95AFC /* IVDeviceMgr.storyboard */,
+				EAFF7D692419E70E0006ED6C /* IVMain.storyboard */,
+				EAFF7D662419E70D0006ED6C /* IVAccountViewController.swift */,
+				D5E19F1B2422299D001026D3 /* IVCloudStorageViewController.swift */,
+				EAEB9E7925748B6D00CFCADB /* IVCloudStorageBuyPkgViewController.swift */,
+				EAFF7D672419E70E0006ED6C /* IVDeviceListViewController.swift */,
+				EAFF7D642419E70D0006ED6C /* IVDeviceMgrViewController.swift */,
+				99B30A492431C0E8005C5028 /* IVDeviceShareViewController.swift */,
+				D54E9FE5241A0B3E00D95AFC /* Network */,
+			);
+			path = TX;
+			sourceTree = "<group>";
+		};
+		EAFF7D122419E0BD0006ED6C /* IVMsg */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF7D142419E0BD0006ED6C /* IVMsgVC.swift */,
+				D54E9FE0241A027B00D95AFC /* IVMsgOtaVC.swift */,
+				D5F940AF241A329C00AC0BAE /* IVMsg.storyboard */,
+				D5F940B5241A337600AC0BAE /* IVMsgOta.storyboard */,
+			);
+			path = IVMsg;
+			sourceTree = "<group>";
+		};
+		EAFF7D8F2419EBBF0006ED6C /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				D5C7223723839B9700585D33 /* Assets.xcassets */,
+				EA4A3216247BEF1000309C39 /* timg-2.jpeg */,
+				EA4A3215247BEF1000309C39 /* timg.jpeg */,
+				D5B86AB823C47CA80082A7F1 /* IotVideoDemo.entitlements */,
+				D5C7223923839B9700585D33 /* LaunchScreen.storyboard */,
+				D547B464238D52D800A4478F /* IotVideoDemo-Bridging-Header.h */,
+			);
+			name = Supports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADAAA672419D25F0001B32D /* IotVideoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADAAAB22419D25F0001B32D /* Build configuration list for PBXNativeTarget "IotVideoDemo" */;
+			buildPhases = (
+				EADAAA682419D25F0001B32D /* [CP] Check Pods Manifest.lock */,
+				EADAAA692419D25F0001B32D /* Sources */,
+				EADAAA952419D25F0001B32D /* Frameworks */,
+				EADAAAA22419D25F0001B32D /* Resources */,
+				EADAAAA92419D25F0001B32D /* [CP] Embed Pods Frameworks */,
+				EADAAAAA2419D25F0001B32D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IotVideoDemo;
+			productName = IotVideoAccontMgrDemo;
+			productReference = EADAAAB52419D25F0001B32D /* IotVideoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5C7222523839B9600585D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IV;
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = Tencentcs;
+			};
+			buildConfigurationList = D5C7222823839B9600585D33 /* Build configuration list for PBXProject "IotVideoDemoDev" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5C7222423839B9600585D33;
+			productRefGroup = D5C7222E23839B9600585D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADAAA672419D25F0001B32D /* IotVideoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADAAAA22419D25F0001B32D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADAAAA42419D25F0001B32D /* LaunchScreen.storyboard in Resources */,
+				EA4A320E247BAC7F00309C39 /* IVTransmission.storyboard in Resources */,
+				9935D18A242D9403001F9E78 /* Logo.xcassets in Resources */,
+				D5F940B7241A337600AC0BAE /* IVMsgOta.storyboard in Resources */,
+				EADAAAA62419D25F0001B32D /* Assets.xcassets in Resources */,
+				EAE34CCE241B1FD600865A8A /* IVAddDevice.storyboard in Resources */,
+				1FF2BD602454220D00C00526 /* IVMonitorPlayer.storyboard in Resources */,
+				EAFF7D252419E0BD0006ED6C /* IVLivePlayer.storyboard in Resources */,
+				EA4A3218247BEF1000309C39 /* timg.jpeg in Resources */,
+				EAFF7D6F2419E70E0006ED6C /* IVLogin.storyboard in Resources */,
+				99DE49AF246E7FAE00ED826E /* IVAPAddDevice.storyboard in Resources */,
+				EAE34CD0241B2A2000865A8A /* IVAccount.storyboard in Resources */,
+				99DE49AC246E7E7500ED826E /* IVQRCodeAddDevice.storyboard in Resources */,
+				EA4A321A247BEF1000309C39 /* timg-2.jpeg in Resources */,
+				EA29913A260AD16C00C99232 /* IVDownloadTable.storyboard in Resources */,
+				EAFF7D772419E70E0006ED6C /* IVMain.storyboard in Resources */,
+				D5F940B1241A329C00AC0BAE /* IVMsg.storyboard in Resources */,
+				EAFF7D2B2419E0BD0006ED6C /* IVPlaybackPlayer.storyboard in Resources */,
+				D5E19F182422269F001026D3 /* IJKMediaPlayer.storyboard in Resources */,
+				99DE49AB246E7E6F00ED826E /* IVLANAddDevice.storyboard in Resources */,
+				D5922C8B2421C8EE00945182 /* IVCloudStorage.storyboard in Resources */,
+				D54E9FEA241A103100D95AFC /* IVDeviceMgr.storyboard in Resources */,
+				EAFF7D752419E70E0006ED6C /* IVAILab.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EADAAA682419D25F0001B32D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IotVideoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EADAAAA92419D25F0001B32D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IotVideoDemo/Pods-IotVideoDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IotVideoDemo/Pods-IotVideoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADAAA692419D25F0001B32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4790A024A050EA009C0D20 /* IVJson.swift in Sources */,
+				EA4790C724A050EA009C0D20 /* IVApiFormatTest.swift in Sources */,
+				D5F940AD241A315A00AC0BAE /* IVMsgVC.swift in Sources */,
+				D55E58BB241F18CA00A0A773 /* IVDemoNetwork.swift in Sources */,
+				EAFF7CD22419E0850006ED6C /* IVQRCodeAddDevice.swift in Sources */,
+				EA4790B824A050EA009C0D20 /* IVNotification.swift in Sources */,
+				EAFF7CB22419E0850006ED6C /* IVTencentNetworkAPI.swift in Sources */,
+				EA4790A624A050EA009C0D20 /* IVImage.swift in Sources */,
+				EAFF7D732419E70E0006ED6C /* IVDeviceListViewController.swift in Sources */,
+				EA4790CD24A050EA009C0D20 /* IVCrypto.swift in Sources */,
+				EAFF7CEC2419E0850006ED6C /* IVDevicePlayerViewController.swift in Sources */,
+				EADAAA8C2419D25F0001B32D /* AppDelegate.swift in Sources */,
+				EA47909D24A050EA009C0D20 /* IVKeychain.swift in Sources */,
+				EAFF7CBC2419E0850006ED6C /* IVTencentNetwork.swift in Sources */,
+				EA4790AF24A050EA009C0D20 /* IVLoginConst.swift in Sources */,
+				EA4790CA24A050EA009C0D20 /* IVGradientView.swift in Sources */,
+				EAEB9E7A25748B6D00CFCADB /* IVCloudStorageBuyPkgViewController.swift in Sources */,
+				EA47909124A050EA009C0D20 /* IVPopupView.swift in Sources */,
+				99DE49B2246E816900ED826E /* IVAPAddDeviceVC.swift in Sources */,
+				EAFF7CD82419E0850006ED6C /* IVLANDeviceTableVC.swift in Sources */,
+				99314C2A2474C691001CA05E /* IVAPAddDeviceSendInfoVC.swift in Sources */,
+				EAFF7D8E2419EBB20006ED6C /* IVNavigationViewController.swift in Sources */,
+				EAFF7CE82419E0850006ED6C /* IVPlaybackViewController.swift in Sources */,
+				EA47908E24A050EA009C0D20 /* IVWifiTool.swift in Sources */,
+				99BF363B249759FC00714917 /* IoTAppDelegate.swift in Sources */,
+				EAFF7CD02419E0850006ED6C /* IVDeviceModel.swift in Sources */,
+				EA266EA824F5114500DD271D /* IVTimelineViewModel.swift in Sources */,
+				EA4790AC24A050EA009C0D20 /* IVDelayWork.swift in Sources */,
+				EA4790C424A050EA009C0D20 /* IVLogger.swift in Sources */,
+				EA4790B224A050EA009C0D20 /* IVApplication.swift in Sources */,
+				EAFF7CEA2419E0850006ED6C /* IJKMediaViewController.swift in Sources */,
+				EA266EAC24F5120F00DD271D /* IVTimelineView.swift in Sources */,
+				EABBB5C224AE037000650715 /* IVObservable.swift in Sources */,
+				EA47909A24A050EA009C0D20 /* IVColor.swift in Sources */,
+				EA4790A324A050EA009C0D20 /* IVHudAlert.swift in Sources */,
+				D54E9FE4241A027B00D95AFC /* IVMsgOtaVC.swift in Sources */,
+				EAFF7D6D2419E70E0006ED6C /* IVDeviceMgrViewController.swift in Sources */,
+				EA4790BB24A050EA009C0D20 /* IVFoundation.swift in Sources */,
+				EA4A320B247BAC0E00309C39 /* IVTransmissionViewController.swift in Sources */,
+				EA47909424A050EA009C0D20 /* IVView.swift in Sources */,
+				EA266EAF24F5120F00DD271D /* IVDatelineView.swift in Sources */,
+				D5E19F1C2422299D001026D3 /* IVCloudStorageViewController.swift in Sources */,
+				999121832546BD8B00CB3445 /* IVAnonymousLoginViewController.swift in Sources */,
+				EA4790C124A050EA009C0D20 /* IVButton.swift in Sources */,
+				EA4790A924A050EA009C0D20 /* IVTimer.swift in Sources */,
+				EA4790D024A050EA009C0D20 /* IVControl.swift in Sources */,
+				99B30A4D2431C0EF005C5028 /* IVDeviceShareViewController.swift in Sources */,
+				EA4790B524A050EA009C0D20 /* IVDevice.swift in Sources */,
+				EAA0D28D2604C8B700FB46AD /* IVDownloadTableViewController.swift in Sources */,
+				EAFF7D6B2419E70E0006ED6C /* IVLoginViewController.swift in Sources */,
+				EAFF7CEE2419E0850006ED6C /* IVMonitorViewController.swift in Sources */,
+				EAFF7CE62419E0850006ED6C /* IVLiveViewController.swift in Sources */,
+				EA266EB224F5120F00DD271D /* IVCalendarView.swift in Sources */,
+				EAA4DE3824A1F701008CDEB8 /* IVToast.swift in Sources */,
+				EAFF7D712419E70E0006ED6C /* IVAccountViewController.swift in Sources */,
+				EA4790DD24A05B7A009C0D20 /* IVString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5C7223923839B9700585D33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5C7223A23839B9700585D33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5C7223D23839B9700585D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
+			};
+			name = Debug;
+		};
+		D5C7223E23839B9700585D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
+			};
+			name = Release;
+		};
+		EADAAAB32419D25F0001B32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD572BAB8010505F98B3D510 /* Pods-IotVideoDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = IotVideoDemo/IotVideoDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				DEVELOPMENT_TEAM = C3MLE46F3M;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IotVideoDemo/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/IotVideoDemo/Targets/TX/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IotVideoDemo/Frameworks/ffmpeg/lib",
+				);
+				MARKETING_VERSION = 1.0.2;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Then/Then.framework/Headers\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Then\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Then\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xfrontend -debug-time-function-bodies -D IoTVideo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencentcs.IotVideoDemo;
+				PRODUCT_NAME = IotVideoDemo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_STYLE = all;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/IotVideoDemo/IotVideoDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = x86_64;
+			};
+			name = Debug;
+		};
+		EADAAAB42419D25F0001B32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF63F18C2CB6B85B6DBE5A7 /* Pods-IotVideoDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = IotVideoDemo/IotVideoDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = C3MLE46F3M;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IotVideoDemo/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/IotVideoDemo/Targets/TX/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IotVideoDemo/Frameworks/ffmpeg/lib",
+				);
+				MARKETING_VERSION = 1.0.2;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Then/Then.framework/Headers\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Then\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Then\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xfrontend -debug-time-function-bodies -D IoTVideo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencentcs.IotVideoDemo;
+				PRODUCT_NAME = IotVideoDemo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_STYLE = all;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/IotVideoDemo/IotVideoDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5C7222823839B9600585D33 /* Build configuration list for PBXProject "IotVideoDemoDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C7223D23839B9700585D33 /* Debug */,
+				D5C7223E23839B9700585D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADAAAB22419D25F0001B32D /* Build configuration list for PBXNativeTarget "IotVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADAAAB32419D25F0001B32D /* Debug */,
+				EADAAAB42419D25F0001B32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5C7222523839B9600585D33 /* Project object */;
+}

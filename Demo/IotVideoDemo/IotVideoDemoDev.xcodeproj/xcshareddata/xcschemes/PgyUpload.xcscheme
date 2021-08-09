@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1230"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "echo &quot;begin make Payload.ipa&quot;&#10;&#10;cd ${BUILD_DIR}/${CONFIGURATION}-iphoneos&#10;rm -r Payload*&#10;mkdir Payload&#10;cp -r ${PRODUCT_NAME}.app Payload&#10;zip -r Payload.zip Payload&#10;mv Payload.zip Payload.ipa&#10;&#10;osascript -e &apos;&#10;    set Title to &quot;&#x1f514;&#x84b2;&#x516c;&#x82f1;&quot;&#10;    set Question to &quot;&#x1f9f0;&apos;${PRODUCT_NAME}&apos; &#x7f16;&#x8bd1;&#x6210;&#x529f;&#xff01;\n&#x662f;&#x5426;&#x4e0a;&#x4f20;&#x5230;&#x84b2;&#x516c;&#x82f1;?&quot;&#10;    set Btns to {&quot;&#x4e0b;&#x6b21;&#x518d;&#x8bf4;&quot;, &quot;&#x7acb;&#x5373;&#x4e0a;&#x4f20;&quot;}&#10;    set uploadBtn to get item 2 of Btns&#10;&#10;    display dialog Question with title Title buttons Btns default button 1&#10;&#10;    set clickedBtn to get the button returned of the result&#10;&#10;    if clickedBtn is uploadBtn then&#10;    &#10;        display notification &quot;&#x6b63;&#x5728;&#x540e;&#x53f0;&#x4e0a;&#x4f20;...&#x23eb;\n&#x4e0a;&#x4f20;&#x5b8c;&#x6210;&#x540e;&#x4f1a;&#x901a;&#x77e5;&#x4f60;&quot; with title Title sound name &quot;Ping&quot;&#10;        delay 1&#10;        &#10;        do shell script &quot;curl -F &apos;file=@${BUILD_DIR}/${CONFIGURATION}-iphoneos/Payload.ipa&apos; -F &apos;_api_key=cbe11636fc4031641cccbcb648227d6c&apos; https://www.pgyer.com/apiv2/app/upload&quot;&#10;    &#10;        display dialog &quot;&apos;${PRODUCT_NAME}&apos; &#x4e0a;&#x4f20;&#x6210;&#x529f;!&#x2705;&quot; with title Title buttons {&quot;&#x597d;&#x7684;&quot;}&#10;    &#10;    end if&#10;&apos;&#10;&#10;echo &quot;finish make Payload.ipa&quot;&#10;&#10;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "EADAAA672419D25F0001B32D"
+                     BuildableName = "IotVideoDemo.app"
+                     BlueprintName = "IotVideoDemo"
+                     ReferencedContainer = "container:IotVideoDemoDev.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EADAAA672419D25F0001B32D"
+               BuildableName = "IotVideoDemo.app"
+               BlueprintName = "IotVideoDemo"
+               ReferencedContainer = "container:IotVideoDemoDev.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "NO">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      disableMainThreadChecker = "YES"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "echo &quot;begin make Payload.ipa&quot;&#10;&#10;cd ${BUILD_DIR}/${CONFIGURATION}-iphoneos&#10;rm -r Payload*&#10;mkdir Payload&#10;cp -r ${PRODUCT_NAME}.app Payload&#10;zip -r Payload.zip Payload&#10;mv Payload.zip Payload.ipa&#10;&#10;osascript -e &apos;&#10;    set Title to &quot;&#x1f514;&#x84b2;&#x516c;&#x82f1;&quot;&#10;    set Question to &quot;&#x1f9f0;&apos;${PRODUCT_NAME}&apos; &#x7f16;&#x8bd1;&#x6210;&#x529f;&#xff01;\n&#x662f;&#x5426;&#x4e0a;&#x4f20;&#x5230;&#x84b2;&#x516c;&#x82f1;?&quot;&#10;    set Btns to {&quot;&#x4e0b;&#x6b21;&#x518d;&#x8bf4;&quot;, &quot;&#x7acb;&#x5373;&#x4e0a;&#x4f20;&quot;}&#10;    set uploadBtn to get item 2 of Btns&#10;&#10;    display dialog Question with title Title buttons Btns default button 1&#10;&#10;    set clickedBtn to get the button returned of the result&#10;&#10;    if clickedBtn is uploadBtn then&#10;    &#10;        display notification &quot;&#x6b63;&#x5728;&#x540e;&#x53f0;&#x4e0a;&#x4f20;...&#x23eb;\n&#x4e0a;&#x4f20;&#x5b8c;&#x6210;&#x540e;&#x4f1a;&#x901a;&#x77e5;&#x4f60;&quot; with title Title sound name &quot;Ping&quot;&#10;        delay 1&#10;        &#10;        do shell script &quot;curl -F &apos;file=@${BUILD_DIR}/${CONFIGURATION}-iphoneos/Payload.ipa&apos; -F &apos;_api_key=cbe11636fc4031641cccbcb648227d6c&apos; https://www.pgyer.com/apiv2/app/upload&quot;&#10;    &#10;        display dialog &quot;&apos;${PRODUCT_NAME}&apos; &#x4e0a;&#x4f20;&#x6210;&#x529f;!&#x2705;&quot; with title Title buttons {&quot;&#x597d;&#x7684;&quot;}&#10;    &#10;    end if&#10;&apos;&#10;&#10;echo &quot;finish make Payload.ipa&quot;&#10;&#10;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "EADAAA672419D25F0001B32D"
+                     BuildableName = "IotVideoDemo.app"
+                     BlueprintName = "IotVideoDemo"
+                     ReferencedContainer = "container:IotVideoDemoDev.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EADAAA672419D25F0001B32D"
+            BuildableName = "IotVideoDemo.app"
+            BlueprintName = "IotVideoDemo"
+            ReferencedContainer = "container:IotVideoDemoDev.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
