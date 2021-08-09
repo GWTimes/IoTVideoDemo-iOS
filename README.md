@@ -7,14 +7,15 @@ IoTVideo-iOS（物联网智能视频服务平台iOS端SDK）为iOS移动客户�
   - 开发工具：Xcode 10.2+
   - 系统要求：iOS 9.0+
 
-> Tips：相关开发文档都在Docs目录下，具体开发流程请参考**《IoTVideo-iOS开发指南》**
+> Tips：相关开发文档都在Docs目录下，具体开发流程请参考Docs/《IoTVideo-iOS开发指南》
 
 此SDK遵循自下而上的设计原则，按职责划分成三层：底部是P2P基础通讯层、中间是网络及连接抽象层、 上面是PaaS功能接口层。其中PaaS功能的连接抽象层包括：音视频播放器、用户数据传输、文件下载，网络抽象层包括：设备配网、消息管理。如下所示。
 
-- SDK层级结构图
+- SDK层级结构图如下:
+
 ![SDK整体架构图](https://tva1.sinaimg.cn/large/008i3skNgy1gs9uakuk0oj310s05r0ss.jpg)
 
-- 播放器功能特性
+- 播放器功能特性如下:
 
 | 功能              |  监控播放器  |  回放播放器  |  音视频通话 |
 | ----------------- | ---------- | ---------- | ---------- |
@@ -35,15 +36,17 @@ IoTVideo-iOS（物联网智能视频服务平台iOS端SDK）为iOS移动客户�
 | 双向语音           | ✓          | x          | ✓          |
 | 双向视频           | x          | x          | ✓          |
 
-- 播放器集合图
-![播放器集合图](https://tva1.sinaimg.cn/large/008i3skNgy1gs8i7grxj6j30im0ga3yn.jpg)
+- 播放器关系图如下:
 
-- 播放器状态转换图
+![播放器关系图](https://tva1.sinaimg.cn/large/008i3skNgy1gs8i7grxj6j30im0ga3yn.jpg)
+
+- 播放器状态转换图如下:
+
 ![播放器状态转换图](https://tva1.sinaimg.cn/large/008i3skNgy1gs8gz9v74tj30g10gct95.jpg)
 
-- 通用配网序列图
+- 通用配网序列图如下:
 
-  # ![通用配网序列图](https://tva1.sinaimg.cn/large/008i3skNgy1gs8n7s4clyj310o0owwf5.jpg)
+![通用配网序列图](https://tva1.sinaimg.cn/large/008i3skNgy1gs8n7s4clyj310o0owwf5.jpg)
 
 
 
